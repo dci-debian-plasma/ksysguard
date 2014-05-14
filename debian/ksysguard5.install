@@ -1,0 +1,8 @@
+usr/bin/ksysguard
+etc/xdg/*
+usr/share/applications
+usr/share/doc
+usr/share/icons
+usr/share/knotifications5
+usr/share/ksysguard
+usr/lib/*/libkdeinit5_ksysguard.so
