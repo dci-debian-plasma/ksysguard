@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: libksysguard
-Source: ftp://ftp.kde.org/pub/kde/workspace/libksysguard
+Upstream-Name: ksysguard
+Source: ftp://ftp.kde.org/pub/kde/unstable/plasma/
 
 Files: *
        debian/*
@@ -256,10 +256,6 @@ License: GPL-2.0+
 
 Files: gui/SharedSettings.h
        ksysguardd/* excluding:
-        -? ksysguardd/CMakeLists.txt
-        -+ ksysguardd/Command.c
-        -+ ksysguardd/Command.h
-        -? ksysguardd/config-ksysguardd.h.cmake
        ksysguardd/FreeBSD/acpi.c
        ksysguardd/FreeBSD/acpi.h
        ksysguardd/FreeBSD/netdev.c
@@ -274,17 +270,7 @@ Files: gui/SharedSettings.h
        ksysguardd/Irix/NetDev.h
        ksysguardd/Irix/ProcessList.c
        ksysguardd/Linux/* excluding:
-        -? ksysguardd/Linux/CMakeLists.txt
-        -+ ksysguardd/Linux/Memory.h
-        -+ ksysguardd/Linux/ProcessList.h
        ksysguardd/NetBSD/* excluding:
-        -? ksysguardd/NetBSD/CMakeLists.txt
-        -+ ksysguardd/NetBSD/CPU.c
-        -+ ksysguardd/NetBSD/CPU.h
-        -+ ksysguardd/NetBSD/Memory.c
-        -+ ksysguardd/NetBSD/Memory.h
-        -+ ksysguardd/NetBSD/ProcessList.c
-        -+ ksysguardd/NetBSD/ProcessList.h
        ksysguardd/Solaris/LoadAvg.c
        ksysguardd/Solaris/Memory.c
        ksysguardd/Solaris/NetDev.c
@@ -306,14 +292,11 @@ License: GPL-2
  You should have received a copy of the GNU General Public License
  along with this program; if not, write to the Free Software
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 Files: gui/* excluding:
-        -? gui/CMakeLists.txt
-        -+ gui/SharedSettings.h
-        -+ gui/TimerSettings.cpp
-        -+ gui/TimerSettings.h
-        -+ gui/ksortfilterproxymodel.cpp
-        -+ gui/ksortfilterproxymodel.h
        gui/SensorDisplayLib/BarGraph.cpp
        gui/SensorDisplayLib/BarGraph.h
        gui/SensorDisplayLib/DancingBars.cpp
@@ -345,6 +328,9 @@ License: GPL-2 or at your option version 3
  You should have received a copy of the GNU General Public License
  along with this program; if not, write to the Free Software
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 Files: gui/ksortfilterproxymodel.cpp
        gui/ksortfilterproxymodel.h
@@ -353,18 +339,22 @@ Copyright: 2009 John Tapsell <tapsell@kde.org>
            2007-2008 Omat Holding B.V. <info@omat.nl>
            2002 Tobias Koenig <tokoe@kde.org>
                 Chris Schlaeger <cs@kde.org>
+           2007-2008 Omat Holding B.V. <info@omat.nl>
 License: LGPL-2+
- * This library is free software; you can redistribute it and/or
- * modify it under the terms of the GNU Library General Public
- * License as published by the Free Software Foundation; either
- * version 2 of the License, or (at your option) any later version.
- *
- * This library is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Library General Public License for more details.
- *
- * You should have received a copy of the GNU Library General Public License
- * along with this library; see the file COPYING.LIB.  If not, write to
- * the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
- * Boston, MA 02110-1301, USA.
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
