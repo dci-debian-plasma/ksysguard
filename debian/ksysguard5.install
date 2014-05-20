@@ -1,2 +1,3 @@
 usr/bin/ksysguard
+usr/share/applications
 usr/lib/*/libkdeinit5_ksysguard.so

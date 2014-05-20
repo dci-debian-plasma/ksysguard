@@ -1,5 +1,4 @@
 etc/xdg/*
-usr/share/applications
 usr/share/doc
 usr/share/icons
 usr/share/knotifications5
