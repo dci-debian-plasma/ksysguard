@@ -2,31 +2,56 @@ Source: ksysguard
 Priority: extra
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
-Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
- extra-cmake-modules (>= 0.0.14), pkg-kde-tools, xvfb, qtbase5-dev,
- libkf5kdelibs4support5-bin (>= 4.100.0), libkf5kdelibs4support-dev (>= 4.100.0),
- libkf5config-dev (>= 4.100.0), xauth, xvfb, qtbase5-dev, qtscript5-dev,
- plasma-framework-dev ( >= 4.100.0), libkf5newstuff-dev ( >= 4.100.0),
- libkf5iconthemes-dev ( >= 4.100.0), libkf5configwidgets-dev ( >= 4.100.0),
- kinit-dev ( >= 4.100.0), libkf5notifications-dev ( >= 4.100.0),
- libkf5parts-dev ( >= 4.100.0), libkf5textwidgets-dev ( >= 4.100.0),
- kio-dev (>= 4.100.0), libkf5xmlgui-dev (>= 4.100.0),
- libkf5widgetsaddons-dev (>= 4.100.0), libkf5completion-dev (>= 4.100.0),
- libkf5bookmarks-dev (>= 4.100.0), libkf5jobwidgets-dev (>= 4.100.0),
- libkf5coreaddons-dev (>= 4.100.0), libkf5auth-dev (>= 4.100.0),
- libkf5codecs-dev (>= 4.100.0), libkf5guiaddons-dev (>= 4.100.0),
- libkf5itemviews-dev (>= 4.100.0), libkf5dbusaddons-dev (>= 4.100.0),
- libkf5windowsystem-dev (>= 4.100.0), qtdeclarative5-dev,
- plasma-framework-dev (>= 4.100.0), kio-dev (>= 4.100.0),
- libkf5bookmarks-dev (>= 4.100.0), libkf5xmlgui-dev (>= 4.100.0),
- libkf5globalaccel-dev (>= 4.100.0), libkf5textwidgets-dev (>= 4.100.0),
- libkf5attica-dev (>= 4.100.0), libkf5jobwidgets-dev (>= 4.100.0),
- libkf5solid-dev (>= 4.100.0), libkf5threadweaver-dev (>= 4.100.0), libkf5unitconversion-dev (>= 4.100.0), libkf5service-dev (>= 4.100.0),
- libkf5sonnet-dev (>= 4.100.0), libkf5itemmodels-dev (>= 4.100.0),
- libkf5emoticons-dev (>= 4.100.0), kgendesignerplugin (>= 4.100.0),
- kdoctools-dev (>= 4.100.0), libkf5crash-dev (>= 4.100.0),
- libkf5i18n-dev (>= 4.100.0), libkf5sysguard-dev (>= 4.96.0),
- libsensors4-dev
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               kdoctools-dev (>= 4.100.0),
+               kgendesignerplugin (>= 4.100.0),
+               kinit-dev ( >= 4.100.0),
+               kio-dev (>= 4.100.0),
+               libkf5attica-dev (>= 4.100.0),
+               libkf5auth-dev (>= 4.100.0),
+               libkf5bookmarks-dev (>= 4.100.0),
+               libkf5codecs-dev (>= 4.100.0),
+               libkf5completion-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5configwidgets-dev ( >= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5crash-dev (>= 4.100.0),
+               libkf5dbusaddons-dev (>= 4.100.0),
+               libkf5emoticons-dev (>= 4.100.0),
+               libkf5globalaccel-dev (>= 4.100.0),
+               libkf5guiaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5iconthemes-dev ( >= 4.100.0),
+               libkf5itemmodels-dev (>= 4.100.0),
+               libkf5itemviews-dev (>= 4.100.0),
+               libkf5jobwidgets-dev (>= 4.100.0),
+               libkf5kdelibs4support-dev (>= 4.100.0),
+               libkf5kdelibs4support5-bin (>= 4.100.0),
+               libkf5newstuff-dev ( >= 4.100.0),
+               libkf5notifications-dev ( >= 4.100.0),
+               libkf5parts-dev ( >= 4.100.0),
+               libkf5service-dev (>= 4.100.0),
+               libkf5solid-dev (>= 4.100.0),
+               libkf5sonnet-dev (>= 4.100.0),
+               libkf5sysguard-dev (>= 4.96.0),
+               libkf5textwidgets-dev ( >= 4.100.0),
+               libkf5textwidgets-dev (>= 4.100.0),
+               libkf5threadweaver-dev (>= 4.100.0),
+               libkf5unitconversion-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
+               libkf5windowsystem-dev (>= 4.100.0),
+               libkf5xmlgui-dev (>= 4.100.0),
+               libsensors4-dev,
+               pkg-kde-tools,
+               plasma-framework-dev ( >= 4.100.0),
+               plasma-framework-dev (>= 4.100.0),
+               qtbase5-dev,
+               qtdeclarative5-dev,
+               qtscript5-dev,
+               xauth,
+               xvfb
 Standards-Version: 3.9.5
 Section: libs
 Homepage: https://projects.kde.org/unstable/plasma/ksysguard
@@ -34,7 +59,7 @@ Homepage: https://projects.kde.org/unstable/plasma/ksysguard
 Package: ksysguardd
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: System Guard Daemon
  System Guard Daemon can be installed on a remote system so that the KDE
  System Guard can connect to and monitor it.
@@ -44,8 +69,10 @@ Description: System Guard Daemon
 Package: ksysguard5
 Section: utils
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ksysguardd (= ${binary:Version}),
- ksysguard5-data (= ${binary:Version})
+Depends: ksysguard5-data (= ${binary:Version}),
+         ksysguardd (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: process monitor and system statistics
  System Guard allows you to monitor various statistics about your system.
  .
@@ -57,10 +84,10 @@ Description: process monitor and system statistics
 Package: ksysguard5-data
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for monitoring your system - shared library
  KSysGuard is a program to monitor various elements of your system, or any
- other remote system with the KSysGuard daemon (ksysgardd) installed. 
+ other remote system with the KSysGuard daemon (ksysgardd) installed.
  Currently the daemon has been ported to Linux, FreeBSD, Irix, NetBSD,
  OpenBSD, Solaris and Tru64 with varying degrees of completion.
  .
@@ -70,10 +97,10 @@ Package: ksysguard5-dbg
 Section: debug
 Architecture: any
 Recommends: libqt5-dbg
-Depends: ${misc:Depends}, ksysguard5 (= ${binary:Version})
+Depends: ksysguard5 (= ${binary:Version}), ${misc:Depends}
 Description: library for monitoring your system - debug info
  KSysGuard is a program to monitor various elements of your system, or any
- other remote system with the KSysGuard daemon (ksysgardd) installed. 
+ other remote system with the KSysGuard daemon (ksysgardd) installed.
  Currently the daemon has been ported to Linux, FreeBSD, Irix, NetBSD,
  OpenBSD, Solaris and Tru64 with varying degrees of completion.
  .
