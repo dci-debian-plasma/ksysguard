@@ -35,7 +35,7 @@ Build-Depends: cmake,
                libkf5service-dev (>= 4.100.0),
                libkf5solid-dev (>= 4.100.0),
                libkf5sonnet-dev (>= 4.100.0),
-               libkf5sysguard-dev (>= 4.96.0),
+               libkf5sysguard-dev (>= 4.97.0),
                libkf5textwidgets-dev ( >= 4.100.0),
                libkf5textwidgets-dev (>= 4.100.0),
                libkf5threadweaver-dev (>= 4.100.0),
@@ -69,7 +69,7 @@ Description: System Guard Daemon
 Package: ksysguard5
 Section: utils
 Architecture: any
-Depends: ksysguard5-data (= ${binary:Version}),
+Depends: ksysguard5-data (= ${source:Version}),
          ksysguardd (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -83,7 +83,7 @@ Description: process monitor and system statistics
 
 Package: ksysguard5-data
 Section: libs
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for monitoring your system - shared library
  KSysGuard is a program to monitor various elements of your system, or any

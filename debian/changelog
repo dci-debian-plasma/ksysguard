@@ -1,4 +1,4 @@
-ksysguard (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+ksysguard (4:4.97.0a-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Initial release.
@@ -6,5 +6,10 @@ ksysguard (4:4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ Scarlett Clark ]
+  * New tar
+  * change data arch to all
+  * fix depend version
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:25:27 +0100
