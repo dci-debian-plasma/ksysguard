@@ -1,2 +1,1 @@
-ksysguard5: package-name-doesnt-match-sonames libkdeinit5-ksysguard
-
+ksysguard: package-name-doesnt-match-sonames libkdeinit5-ksysguard
