@@ -53,11 +53,10 @@ Build-Depends: cmake,
                xauth,
                xvfb
 Standards-Version: 3.9.5
-Section: libs
+Section: kde
 Homepage: https://projects.kde.org/unstable/plasma/ksysguard
 
 Package: ksysguardd
-Section: utils
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: System Guard Daemon
@@ -66,10 +65,9 @@ Description: System Guard Daemon
  .
  This package is part of the KDE base workspace module.
 
-Package: ksysguard5
-Section: utils
+Package: ksysguard
 Architecture: any
-Depends: ksysguard5-data (= ${source:Version}),
+Depends: ksysguard-data (= ${source:Version}),
          ksysguardd (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -81,7 +79,7 @@ Description: process monitor and system statistics
  .
  This package is part of the KDE base workspace module.
 
-Package: ksysguard5-data
+Package: ksysguard-data
 Section: libs
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -93,11 +91,11 @@ Description: library for monitoring your system - shared library
  .
  This package contains the locale files
 
-Package: ksysguard5-dbg
+Package: ksysguard-dbg
 Section: debug
 Architecture: any
 Recommends: libqt5-dbg
-Depends: ksysguard5 (= ${binary:Version}), ${misc:Depends}
+Depends: ksysguard (= ${binary:Version}), ${misc:Depends}
 Description: library for monitoring your system - debug info
  KSysGuard is a program to monitor various elements of your system, or any
  other remote system with the KSysGuard daemon (ksysgardd) installed.
