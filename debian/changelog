@@ -1,6 +1,12 @@
 ksysguard (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ Harald Sitter ]
+  * Lintian override missing manpages and kdeinit warnings
+    + manpages: we don't care
+    + kdeinit: by design not a proper shared library
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:27:07 +0200
 
