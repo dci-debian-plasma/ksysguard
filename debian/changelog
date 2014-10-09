@@ -1,4 +1,4 @@
-ksysguard (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
+ksysguard (4:5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
@@ -8,7 +8,10 @@ ksysguard (4:5.0.95-0ubuntu1) UNRELEASED; urgency=medium
     + manpages: we don't care
     + kdeinit: by design not a proper shared library
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 15:27:07 +0200
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 09 Oct 2014 15:47:48 +0200
 
 ksysguard (4:5.0.2-0ubuntu1) utopic; urgency=medium
 
