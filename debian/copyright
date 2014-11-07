@@ -278,7 +278,7 @@ Files: gui/SharedSettings.h
        ksysguardd/Tru64/LoadAvg.c
        ksysguardd/Tru64/Memory.c
        ksysguardd/Tru64/NetDev.c
-Copyright: 1999-2001 Chris Schlaeger <cs@kde.org>           
+Copyright: 1999-2001 Chris Schlaeger <cs@kde.org>
 License: GPL-2
  This program is free software; you can redistribute it and/or
  modify it under the terms of version 2 of the GNU General Public
