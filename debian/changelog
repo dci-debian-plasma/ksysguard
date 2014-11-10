@@ -1,8 +1,8 @@
-ksysguard (4:5.1.1-0ubuntu1) UNRELEASED; urgency=medium
+ksysguard (4:5.1.1-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 07 Nov 2014 02:37:12 +0000
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:45:25 +0100
 
 ksysguard (4:5.1.0.1-0ubuntu1) vivid; urgency=medium
 
