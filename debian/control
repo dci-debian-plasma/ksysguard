@@ -1,5 +1,6 @@
 Source: ksysguard
-Priority: extra
+Section: kde
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
@@ -18,7 +19,6 @@ Build-Depends: cmake,
                xauth,
                xvfb
 Standards-Version: 3.9.5
-Section: kde
 Homepage: https://projects.kde.org/unstable/plasma/ksysguard
 
 Package: ksysguardd
@@ -45,7 +45,6 @@ Description: process monitor and system statistics
  This package is part of the KDE base workspace module.
 
 Package: ksysguard-data
-Section: libs
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for monitoring your system - shared library
@@ -58,6 +57,7 @@ Description: library for monitoring your system - shared library
 
 Package: ksysguard-dbg
 Section: debug
+Priority: extra
 Architecture: any
 Recommends: libqt5-dbg
 Depends: ksysguard (= ${binary:Version}), ${misc:Depends}
