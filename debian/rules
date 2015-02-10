@@ -6,5 +6,5 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 override_dh_strip:
 	$(overridden_command) --dbg-package=ksysguard-dbg
 
-override_dh_auto_test:	
+override_dh_auto_test:
 	xvfb-run -a dh_auto_test
