@@ -18,7 +18,9 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 Section: kde
-Homepage: https://projects.kde.org/unstable/plasma/ksysguard
+Homepage: https://projects.kde.org/kde/workspace/ksysguard
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/ksysguard.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/ksysguard.git
 
 Package: ksysguardd
 Architecture: any
