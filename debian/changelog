@@ -1,3 +1,9 @@
+ksysguard (4:5.3.1-0ubuntu2) wily; urgency=medium
+
+  * Rebuild against libkf5sysguard-dev (>= 5.3.0)
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 24 Jun 2015 15:06:35 +0200
+
 ksysguard (4:5.3.1-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
