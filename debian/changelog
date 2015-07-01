@@ -1,10 +1,10 @@
-ksysguard (4:5.3.2-1~) UNRELEASED; urgency=medium
+ksysguard (4:5.3.2-1) unstable; urgency=medium
 
   * New upstream release (5.3.0).
   * New upstream release (5.3.1).
   * New upstream release (5.3.2).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 30 Jun 2015 12:24:49 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jul 2015 11:24:03 +0200
 
 ksysguard (4:5.3.1-0ubuntu2) wily; urgency=medium
 
