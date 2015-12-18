@@ -1,8 +1,9 @@
-ksysguard (4:5.4.3-0ubuntu2) UNRELEASED; urgency=medium
+ksysguard (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes. 
+  * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 05 Dec 2015 02:28:43 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 07:32:10 -0800
 
 ksysguard (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
