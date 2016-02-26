@@ -9,6 +9,9 @@ ksysguard (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * New upstream release
 
+  [ Scarlett Clark ]
+  * Fix copyright file merge. 
+
  -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:11:41 +0000
 
 ksysguard (4:5.4.3-0ubuntu1) xenial; urgency=medium
