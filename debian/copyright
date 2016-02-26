@@ -220,7 +220,6 @@ License: GPL
  --
  On Debian systems, the complete text of the GNU General Public License
  can be found in `/usr/share/common-licenses/GPL'.
->>>>>>> master
 
 Files: debian/*
 Copyright: 2014, Scarlett Clark <scarlett@scarlettgatelyclark.com>
