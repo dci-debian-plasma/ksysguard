@@ -8,7 +8,13 @@ ksysguard (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   * new upstream release
   * New upstream release
   * New upstream release
-  * Fixing copyright file
+
+  [ Scarlett Clark ]
+  * Fix copyright file merge. 
+  * Another merge tag in copyright.
+
+  [ Clive Johnston ]
+  * Fixing copyright file 
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:11:41 +0000
 
