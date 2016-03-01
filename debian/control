@@ -60,17 +60,3 @@ Description: library for monitoring your system - shared library
  OpenBSD, Solaris and Tru64 with varying degrees of completion.
  .
  This package contains the locale files
-
-Package: ksysguard-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: ksysguard (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: library for monitoring your system - debug info
- KSysGuard is a program to monitor various elements of your system, or any
- other remote system with the KSysGuard daemon (ksysgardd) installed.
- Currently the daemon has been ported to Linux, FreeBSD, Irix, NetBSD,
- OpenBSD, Solaris and Tru64 with varying degrees of completion.
- .
- This package contains the debugging symbols.
