@@ -1,4 +1,4 @@
-ksysguard (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
+ksysguard (4:5.5.4-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge: No remaining changes. 
@@ -16,7 +16,7 @@ ksysguard (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * Fixing copyright file 
 
- -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:11:41 +0000
+ -- Clive Johnston <clivejo@aol.com>  Mon, 07 Mar 2016 21:23:30 +0100
 
 ksysguard (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
