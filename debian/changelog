@@ -1,6 +1,6 @@
-ksysguard (4:5.6.3-1~1.gbp9b7c5c) UNRELEASED; urgency=medium
+ksysguard (4:5.6.4-1~1.gbp1ad65c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9b7c5ca7c4e5cd82cdc9aac999f8a8249ce9071f **
+  ** SNAPSHOT build @1ad65c09f17927d20c6925ae2859f8a8b5caa939 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @ff24de7b16088343b3b582e36ac9f0d8ef761569 **
@@ -9,11 +9,12 @@ ksysguard (4:5.6.3-1~1.gbp9b7c5c) UNRELEASED; urgency=medium
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 17:34:40 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 23:21:20 +0200
 
 ksysguard (4:5.5.4-1) experimental; urgency=medium
 
