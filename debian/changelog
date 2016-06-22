@@ -1,11 +1,8 @@
-ksysguard (4:5.6.5-1~1.gbpf18dbb) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @f18dbb295ed85066e1a2cd34df3d13390b743951 **
+ksysguard (4:5.6.5-1) unstable; urgency=medium
 
   * Add new libkdeinit5_ksysguard lintian-override
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 17:21:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 21:55:20 +0200
 
 ksysguard (4:5.6.4-1) unstable; urgency=medium
 
