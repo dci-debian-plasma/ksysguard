@@ -1,10 +1,9 @@
-ksysguard (4:5.7.0-1~1.gbp0551df) UNRELEASED; urgency=medium
+ksysguard (4:5.7.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0551df5f0a8081c246d82dc721dbf38b4a6c0689 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 17:21:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Jul 2016 08:14:11 +0200
 
 ksysguard (4:5.6.5-1) unstable; urgency=medium
 
