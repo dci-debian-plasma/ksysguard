@@ -1,10 +1,11 @@
-ksysguard (4:5.7.1-1~1.gbp6b82ef) UNRELEASED; urgency=medium
+ksysguard (4:5.7.2-1~1.gbpe06654) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6b82ef1d81236482f23dc81f4d73f68d7a254237 **
+  ** SNAPSHOT build @e066545894c88cfe7129a57489109bb9341e9a25 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 23:21:18 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 19 Jul 2016 17:21:29 +0200
 
 ksysguard (4:5.7.0-1) unstable; urgency=medium
 
