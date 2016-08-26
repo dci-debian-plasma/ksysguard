@@ -1,13 +1,8 @@
-ksysguard (4:5.7.4-1~1.gbp87af29) UNRELEASED; urgency=medium
+ksysguard (4:5.7.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @87af2982abeef0684a237f78d789f1908a9d61cc **
+  * New upstream release (5.7.4)
 
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 24 Aug 2016 23:21:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Aug 2016 00:12:12 +0200
 
 ksysguard (4:5.7.0-1) unstable; urgency=medium
 
