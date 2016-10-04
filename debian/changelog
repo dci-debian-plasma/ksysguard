@@ -1,10 +1,11 @@
-ksysguard (4:5.7.5-1~1.gbp6f1472) UNRELEASED; urgency=medium
+ksysguard (4:5.8.0-1~1.gbp78de9f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6f14724d6a04ebbc160a027d6fc692a4ae067979 **
+  ** SNAPSHOT build @78de9f4c5b3d806a32bf630bdc0a0d224dbefa40 **
 
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 17:21:44 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:42:06 +0200
 
 ksysguard (4:5.7.4-1) unstable; urgency=medium
 
