@@ -1,3 +1,11 @@
+ksysguard (4:5.8.1-1~1.gbpf969fa) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f969fab9d57f35eee7f79e7bad609f9d1032aca4 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 17:21:28 +0200
+
 ksysguard (4:5.8.0-1) unstable; urgency=medium
 
   * New upstream release (5.8.0)
