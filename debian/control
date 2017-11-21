@@ -63,7 +63,7 @@ Description: library for monitoring your system - shared library
 
 Package: ksysguard-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: ksysguard (= ${binary:Version}), ${misc:Depends}
 Recommends: qtbase5-dbg
@@ -74,3 +74,4 @@ Description: library for monitoring your system - debug info
  OpenBSD, Solaris and Tru64 with varying degrees of completion.
  .
  This package contains the debugging symbols.
+
